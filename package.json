@@ -1,0 +1,17 @@
+{
+	"name": "bergen-brainstorm",
+	"version": "0.0.1",
+	"description": "gruppe fordeler",
+	"main": "web-server.js",
+	"dependencies": {
+		"ejs": "~0.8.4",
+		"express": "~3.3.4",
+		"async": "~0.2.9",
+		"request": "~2.27.0",
+		"underscore": "~1.5.1"
+	},
+	"engines": {
+    "node": "0.10.12",
+    "npm": "1.2.30"
+  }
+}
