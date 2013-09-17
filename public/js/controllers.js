@@ -1,4 +1,4 @@
-var PlayersPerGroup = 3;
+var PlayersPerGroup = $('#PlayersPerGroup').val();
 var numOfPlayers = 0;
 var numOfGroups = 0;
 var names = new Array();
@@ -12,6 +12,7 @@ var players;
 $( "#divideGroupsBtn" ).click(function() {
 
 	$('#groups').html('');
+	PlayersPerGroup = $('#PlayersPerGroup').val();
 
  	numOfPlayers = players.length;
 	numOfGroups = Math.ceil(numOfPlayers / PlayersPerGroup);
